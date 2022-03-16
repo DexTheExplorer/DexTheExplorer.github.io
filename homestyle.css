@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+    --darkest: #2E3440;
+    --dark: #3B4252;
+    --light: #434C5E;
+    --lightest: #4C566A;
+}
+
+/*GENERAL*/
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+body {
+    margin: unset;
+    background-color: var(--darkest);
+
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.boldTxt {
+    font-weight: bold;
+}
+
+/*CONTENT BOXES*/
+
+[id="bgContent"] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--dark);
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/*TOPBAR*/
+
+.topbar {
+    height: 50px;
+    background-color: var(--dark);
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    box-shadow: #2E3440 0 5px 5px;
+}
+
+.topbarButton {
+    padding: 7px;
+    margin: 5px 5px 0 5px;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    background-color: var(--light);
+    align-items: center;
+}
+
+.topbarButtonTxt {
+    margin-left: 5px;
+}
+
+/*ABOUTME*/
+
+.aboutMeTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.userImg {
+    border-radius: 15px;
+    width: 250px;
+}
+
+.name {
+    font-size: 45px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+/*WHOAMI*/
+
+.whoAmI {
+    flex-direction: column;
+}
+
+.whoAmICursive {
+    font-style: italic;
+    font-size: 45px;
+}
+
+.whoAmICursive::after {
+    content: " - Said no-one, ever";
+    color: var(--lightest);
+    font-size: 20px;
+}
+
+.whoAmIContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whoAmISmallContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px 15px 0 0;
+    background-color: var(--light);
+}
+
+.whoAmISmallContainer .material-icons {
+    padding-right: 5px;
+}
