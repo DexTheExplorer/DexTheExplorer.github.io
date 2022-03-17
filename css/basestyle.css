@@ -9,11 +9,6 @@
 
 /*GENERAL*/
 
-a {
-    text-decoration: none;
-    color: unset;
-}
-
 body {
     margin: unset;
     background-color: var(--darkest);
@@ -50,6 +45,8 @@ body {
 }
 
 .topbarButton {
+    text-decoration: none;
+    color: unset;
     padding: 7px;
     margin: 5px 5px 0 5px;
     border-radius: 5px 5px 0 0;
@@ -62,59 +59,17 @@ body {
     margin-left: 5px;
 }
 
-/*ABOUTME*/
+/*FOOTER*/
 
-.aboutMeTxt {
+.footer {
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: var(--dark);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    margin-left: 25px;
-}
-
-.userImg {
-    border-radius: 15px;
-    width: 250px;
-}
-
-.name {
-    font-size: 45px;
-}
-
-.description {
-    font-size: 20px;
-}
-
-/*WHOAMI*/
-
-.whoAmI {
-    flex-direction: column;
-}
-
-.whoAmICursive {
-    font-style: italic;
-    font-size: 45px;
-}
-
-.whoAmICursive::after {
-    content: " - Said no-one, ever";
-    color: var(--lightest);
-    font-size: 20px;
-}
-
-.whoAmIContainer {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.whoAmISmallContainer {
-    display: flex;
     align-items: center;
-    padding: 10px;
-    border-radius: 15px;
-    margin: 15px 15px 0 0;
-    background-color: var(--light);
-}
-
-.whoAmISmallContainer .material-icons {
-    padding-right: 5px;
+    box-shadow: #2E3440 0 -5px 5px;
 }
