@@ -1,0 +1,29 @@
+/*SIDE-BY-SIDE BOXES*/
+
+.sideProfile {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.sidePanel {
+    flex-direction: column;
+}
+
+.userImg {
+    width: 350px;
+    border-radius: 15px;
+}
+
+.name {
+    padding-top: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.desc {
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
