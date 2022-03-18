@@ -2,18 +2,18 @@
 <head>
     <!--<meta http-equiv="refresh" content="1">-->
     <link rel="stylesheet" href="./css/basestyle.css">
-    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/blog.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <html>
 <body>
-
+    
     <div class="topbar" style="position: sticky; top: 0px">
         <a class="topbarButton" href="./index.html">
             <span class="material-icons">home</span>
             <span class="topbarButtonTxt">Home</span>
         </a>
-        <a class="topbarButton" href="./projects.html" style="border-bottom: 2px solid #ff69b4;">
+        <a class="topbarButton" href="./projects.html">
             <span class="material-icons">dashboard</span>
             <span class="topbarButtonTxt">Projects</span>
         </a>
@@ -21,25 +21,34 @@
             <span class="material-icons">auto_stories</span>
             <span class="topbarButtonTxt">Tutorials</span>
         </a>
-        <a class="topbarButton" href="./blog.html">
+        <a class="topbarButton" href="./blog.html" style="border-bottom: 2px solid #ff69b4;">
             <span class="material-icons">art_track</span>
             <span class="topbarButtonTxt">Blog</span>
         </a>
     </div>
-
-    <div class="projectContainer" id="bgContent">
-        <a class="project" href="./projects/2022/03/website.html">
-            <img src="./share/unknown.png" class="projectImg">
-            <span class="projectTxt">dextheexplorer.github.io</span>
-            <span class="projectDsc">My very own website! Wait... You're on it right now! Isn't that cool?</span>
+    
+    <div class="blogContainer" id="bgContent">
+        <a class="blogPost" href="./blog/2022/03/android_os_obsession.html">
+            <span class="material-icons" style="font-size: 150px; padding: 20px;">android</span>
+            <div class="blogIdentifier">
+                <div class="nameContainer">
+                    <span class="blogTxt">My weird obsession with android [WIP]</span>
+                    <span class="tags">development, customization, android</span>
+                </div>
+                <span class="blogDsc">I have a very intense relationship with the Android OS.</span>
+                <div class="timeContainer">
+                    <span class="material-icons">schedule</span>
+                    <span class="blogTime">18/03/2022 22:05 (+0100)</span>
+                </div>
+            </div>
         </a>
     </div>
-
     
-
+    
+    
     <div class="footer">
         <span class="footerTxt">This website is static</span>
     </div>
-
+    
 </body>
 </html>
