@@ -1,5 +1,9 @@
 /*SIDE-BY-SIDE BOXES*/
 
+.content {
+    flex: 1;
+}
+
 .sideProfile {
     display: flex;
     flex-direction: row;
