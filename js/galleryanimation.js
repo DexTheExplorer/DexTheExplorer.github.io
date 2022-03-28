@@ -1,4 +1,4 @@
-var redtext = "color: red !important;";
+/*var redtext = "color: red !important;";
 
 // apply style to same name elements
 function applyStyleById(element, style) {
@@ -6,4 +6,4 @@ function applyStyleById(element, style) {
     elements.style.cssText = style;
 }
 
-applyStyleById("project", redtext); // this errors out for some reason
+applyStyleById("project", redtext); // this errors out for some reason*/
