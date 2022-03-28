@@ -2,9 +2,12 @@
 <head>
     <!--<meta http-equiv="refresh" content="1">-->
     <link rel="stylesheet" href="./css/basestyle.css">
-    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <script type="text/javascript" src="./js/galleryanimation.js"></script> <!-- This website is NOT static!!! -->
+    <link href="https://fonts.googleapis.com/icon?family=Roboto+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Projects - Dexxy</title>
+    <title>Gallery - Dexxy</title>
     <link rel="icon" type="image/x-icon" href="./public/dynamic/favicon.ico">
 </head>
 <html>
@@ -15,7 +18,7 @@
             <span class="material-icons">home</span>
             <span class="topbarButtonTxt">Home</span>
         </a>
-        <a class="topbarButton" href="./projects.html" style="border-bottom: 2px solid #ff69b4;">
+        <a class="topbarButton" href="./projects.html">
             <span class="material-icons">dashboard</span>
             <span class="topbarButtonTxt">Projects</span>
         </a>
@@ -27,24 +30,30 @@
             <span class="material-icons">art_track</span>
             <span class="topbarButtonTxt">Blog</span>
         </a>
-        <a class="topbarButton" href="./gallery.html">
+        <a class="topbarButton" href="./gallery.html" style="border-bottom: 2px solid #ff69b4;">
             <span class="material-icons">collections</span>
             <span class="topbarButtonTxt">Gallery</span>
         </a>
     </div>
 
     <div class="projectContainer" id="bgContent">
-        <a class="project" href="./projects/2022/03/website.html">
-            <img src="./public/images/unknown.png" class="projectImg">
-            <span class="projectTxt">dextheexplorer.github.io</span>
-            <span class="projectDsc">My very own website! Wait... You're on it right now! Isn't that cool?</span>
+        <span class="pageTitle">Gallery</span>
+        <a class="project" href="./gallery/wallpapers.html">
+            <span class="material-icons projectIcon">format_paint</span>
+            <span class="projectTxt">wallpapers</span>
+        </a>
+        <a class="project" href="./gallery/subcategory/operating-systems.html" style="animation-delay: 0.125s;">
+            <span class="material-icons projectIcon">android</span>
+            <span class="projectTxt">operating-systems</span>
+        </a>
+        <a class="project" href="./gallery/subcategory/personal.html" style="animation-delay: 0.25s;">
+            <span class="material-icons projectIcon">home</span>
+            <span class="projectTxt">personal</span>
         </a>
     </div>
 
-    
-
     <div class="footer">
-        <span class="footerTxt">This website is static</span>
+        <span class="footerTxt">This website is <em>almost</em> static</span>
     </div>
 
 </body>
