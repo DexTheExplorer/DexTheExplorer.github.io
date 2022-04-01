@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <!--<meta http-equiv="refresh" content="1">-->
+    <link rel="stylesheet" href="./css/basestyle.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tutorials - Dexxy</title>
+    <link rel="icon" type="image/x-icon" href="./public/dynamic/favicon.ico">
+    <script src="./js/jquery.js"></script>
+</head>
+<html>
+<body>
+    <!--Navigation bar-->
+    <div id="tb-placeholder"></div>
+    <script>
+        $.get("topbar.html", function(data){
+            $("#tb-placeholder").replaceWith(data);
+        });
+        $.get("footer.html", function(data){
+            $("#ft-placeholder").replaceWith(data);
+        });
+        console.log(document.location.pathname)
+    </script>
+    
+    
+    <span>Upcoming page navigation</span>
+    
+    <div id="ft-placeholder"></div>
+    
+</body>
+</html>
