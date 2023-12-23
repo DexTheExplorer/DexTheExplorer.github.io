@@ -1,0 +1,1 @@
+window.addEventListener("scroll",()=>{const e=document.querySelector(".article-head"),t=document.querySelector(".article-head-animator");if(e){const i=e.getBoundingClientRect().y<=-e.getBoundingClientRect().height-10;console.log(i),i?(e.classList.add("article-head-fade"),t.classList.add("is-pinned")):(e.classList.remove("article-head-fade"),t.classList.remove("is-pinned"))}});
